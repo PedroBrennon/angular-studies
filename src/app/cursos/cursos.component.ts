@@ -11,6 +11,16 @@ export class CursosComponent implements OnInit {
 
   nomePortal: string;
   cursos: string[];
+  value: number = 5;
+  deleteCicleBool: boolean = false;
+
+  deleteCicle(){
+    this.deleteCicleBool = true;
+  }
+
+  changeValue(){
+    this.value++;
+  }
 
   constructor(private cursosService: CursosService) { 
     this.nomePortal = "Your Learning";

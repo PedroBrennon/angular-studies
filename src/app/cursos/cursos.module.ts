@@ -12,7 +12,12 @@ import { CicleComponent } from './cicle/cicle.component';
 
 
 @NgModule({
-  declarations: [CursosComponent, CursoDetalheComponent, DataBindingComponent, InputPropertyComponent, OutputPropertyComponent, CicleComponent],
+  declarations: [CursosComponent, 
+                 CursoDetalheComponent, 
+                 DataBindingComponent, 
+                 InputPropertyComponent, 
+                 OutputPropertyComponent, 
+                 CicleComponent],
   imports: [
     CommonModule,
     FormsModule
